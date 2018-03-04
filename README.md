@@ -1,6 +1,6 @@
 # EurekaClient
 
-GET requests:
+## GET requests:
 
 - /list: lists all the numbers in the database as JSON array
 Examples:
@@ -38,7 +38,7 @@ Could not find the number you are trying to delete!
 $ curl -X GET http://localhost:8080/delete/3
 Number has been deleted successfully!
 
-POST requests:
+## POST requests:
 
 - /insert/{number}: inserts new number with the value {number} to the database
 Examples:
